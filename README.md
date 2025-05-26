@@ -12,4 +12,7 @@ We disable DuckDuckGo's AI Assist by adding the `assist=false` parameter to all 
 We disable Google's AI Overview by adding the `udm=14` parameter to all Google search URLs. This tells Google to switch to their 'Web' view which is a stripped down results page without AI Overviews or interactive cards.
 
 ## Coming Soon
-1. Support for optionally disabling auto-suggest dropdowns.
+1. Support for the Chrome browser.
+2. Disable AI results in more search engines.
+3. Ability to run the extension in mobile browsers.
+4. Allow optionally disabling auto-suggest dropdowns to reduce resource utilization.
