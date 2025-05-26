@@ -38,7 +38,7 @@
           }
         },
         "condition": {
-          "urlFilter": "||duckduckgo.com/^",
+          "urlFilter": "https://duckduckgo.com/^",
           "resourceTypes": ["main_frame"]
         }
       },
@@ -61,7 +61,7 @@
           }
         },
         "condition": {
-          "urlFilter": "|duckduckgo.com/*q=*",
+          "urlFilter": "https://duckduckgo.com/*q=*",
           "resourceTypes": ["main_frame"]
         }
       }
