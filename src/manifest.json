@@ -4,6 +4,11 @@
   "manifest_version": 3,
   "author": "jruns",
   "description": "Disable AI will disable AI features on various sites and search engines so that you consume less energy and water resources.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "disable-ai@impactfulgroup.com"
+    }
+  },  
   "declarative_net_request": {
     "rule_resources": [
       {
