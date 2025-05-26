@@ -1,5 +1,7 @@
 # disable-ai
-This is a browser extension to disable AI features on various sites and search engines. AI is a large consumer of water and energy. Our goal is not to just hide AI-powered results on websites and search engines, but to actually disable the browser requests that run behind the scenes. And we will also remove links and buttons that if clicked would activate an AI-powered feature on a website.
+This is a browser extension to disable AI features on various sites and search engines. AI is a large consumer of water and energy.
+
+Our goal is not to just hide AI-powered results on websites and search engines, but to actually disable the browser requests that run behind the scenes. Otherwise resources are still consumed by AI to generate results, even if they are hidden visually. And we will also remove links and buttons that if clicked would activate an AI-powered feature on a website.
 
 ## Search Engine Support
 
