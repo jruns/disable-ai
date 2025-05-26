@@ -4,10 +4,6 @@
   "manifest_version": 3,
   "author": "jruns",
   "description": "Disable AI will disable AI features on various sites and search engines so that you consume less energy and water resources.",
-  "background": {
-    "scripts": [ "background.js" ],
-    "service_worker": "background.js"
-  },
   "declarative_net_request": {
     "rule_resources": [
       {
