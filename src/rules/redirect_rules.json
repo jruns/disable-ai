@@ -66,5 +66,282 @@
           "urlFilter": "https://duckduckgo.com/*q=*",
           "resourceTypes": ["main_frame"]
         }
+      },
+      {
+        "id": 4,
+        "priority": 3,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "copilot", "value": "0" },
+                        { "key": "showconv", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||www.bing.com/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 5,
+        "priority": 3,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "copilot", "value": "0" },
+                        { "key": "showconv", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||bing.com/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 6,
+        "priority": 4,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "copilot", "value": "0" },
+                        { "key": "showconv", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||search.yahoo.com/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 7,
+        "priority": 4,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "copilot", "value": "0" },
+                        { "key": "showconv", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||yahoo.com/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 8,
+        "priority": 5,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "suggest", "value": "0" },
+                        { "key": "lr", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||yandex.com/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 9,
+        "priority": 5,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "suggest", "value": "0" },
+                        { "key": "lr", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||yandex.ru/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 10,
+        "priority": 6,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "rsp", "value": "0" },
+                        { "key": "rsv_sug1", "value": "0" },
+                        { "key": "rsv_sug3", "value": "0" },
+                        { "key": "rsv_sug4", "value": "0" },
+                        { "key": "rsv_sug7", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||www.baidu.com/s*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 11,
+        "priority": 6,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "rsp", "value": "0" },
+                        { "key": "rsv_sug1", "value": "0" },
+                        { "key": "rsv_sug3", "value": "0" },
+                        { "key": "rsv_sug4", "value": "0" },
+                        { "key": "rsv_sug7", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||baidu.com/s*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 12,
+        "priority": 7,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "ai", "value": "0" },
+                        { "key": "summary", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||search.brave.com/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 13,
+        "priority": 8,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "udm", "value": "14" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||startpage.com/sp/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 14,
+        "priority": 8,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "udm", "value": "14" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||www.startpage.com/sp/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 15,
+        "priority": 9,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "copilot", "value": "0" },
+                        { "key": "showconv", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||ecosia.org/search*",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 16,
+        "priority": 9,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "copilot", "value": "0" },
+                        { "key": "showconv", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||www.ecosia.org/search*",
+          "resourceTypes": ["main_frame"]
+        }
       }
   ]

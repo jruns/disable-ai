@@ -20,5 +20,148 @@
         "urlFilter": "||duckduckgo.com/ac*",
         "resourceTypes": [ "main_frame", "xmlhttprequest" ]
       }
+    },
+    {
+      "id": 3,
+      "priority": 3,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||bing.com/AS/Suggestions*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 4,
+      "priority": 3,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||www.bing.com/AS/Suggestions*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 5,
+      "priority": 4,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||search.yahoo.com/sugg*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 6,
+      "priority": 4,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||yahoo.com/sugg*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 7,
+      "priority": 5,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||yandex.com/suggest*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 8,
+      "priority": 5,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||yandex.ru/suggest*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 9,
+      "priority": 6,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||www.baidu.com/su*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 10,
+      "priority": 6,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||baidu.com/su*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 11,
+      "priority": 7,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||search.brave.com/api/suggest*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 12,
+      "priority": 8,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||startpage.com/suggestions*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 13,
+      "priority": 8,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||www.startpage.com/suggestions*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 14,
+      "priority": 9,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||ecosia.org/autocomplete*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 9,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||www.ecosia.org/autocomplete*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
     }
 ]

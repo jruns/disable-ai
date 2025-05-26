@@ -15,6 +15,41 @@ We disable Google's AI Overview by adding the `udm=14` parameter to all Google s
 
 We also disable Google's autocomplete/autosuggest feature.
 
+### Bing
+We disable Bing's Copilot AI assistant by adding the `copilot=0` and `showconv=0` parameters to all Bing search URLs. This prevents Copilot from appearing in search results and disables conversational search features.
+
+We also block Bing's autocomplete/autosuggest API endpoints and use content scripts to hide any remaining Copilot UI elements, chat buttons, and AI-generated summaries.
+
+### Yahoo
+Since Yahoo Search is powered by Bing's technology, we apply the same Copilot-disabling parameters (`copilot=0` and `showconv=0`) to Yahoo search URLs. This effectively disables AI features on Yahoo Search.
+
+We also block Yahoo's autocomplete/autosuggest endpoints.
+
+### Yandex
+We disable Yandex's search suggestions and AI-powered features by adding the `suggest=0` and `lr=0` parameters to Yandex search URLs. This reduces AI-powered autocomplete and suggestion features.
+
+We also block Yandex's suggestion API endpoints for both yandex.com and yandex.ru domains.
+
+### Baidu
+We disable Baidu's AI-powered search suggestions by adding multiple parameters: `rsp=0`, `rsv_sug1=0`, `rsv_sug3=0`, `rsv_sug4=0`, and `rsv_sug7=0` to Baidu search URLs. These parameters disable various suggestion and AI-powered features.
+
+We also block Baidu's autocomplete API endpoints.
+
+### Brave Search
+We disable Brave Search's AI features by adding the `ai=0` and `summary=0` parameters to search URLs. This disables Leo AI assistant and AI-generated summaries.
+
+We also use content scripts to hide Leo AI interface elements and block suggestion API endpoints.
+
+### Startpage
+Since Startpage uses Google's search results, we apply the same `udm=14` parameter to disable AI Overviews. This ensures users get clean, non-AI search results even when using Startpage.
+
+We also block Startpage's suggestion endpoints.
+
+### Ecosia
+Since Ecosia Search is powered by Bing's technology, we apply the same Copilot-disabling parameters (`copilot=0` and `showconv=0`) to Ecosia search URLs. This effectively disables AI features on Ecosia Search while maintaining their tree-planting mission.
+
+We also block Ecosia's autocomplete/suggestion endpoints.
+
 ## Firefox Installation instructions
 1. Download a release xpi file from this github repo
 2. Go to `about:addons`
@@ -33,7 +68,7 @@ We also disable Google's autocomplete/autosuggest feature.
 ## Coming Soon
 1. Support for the Chrome browser.
 2. Add International support
-3. Disable AI results in more search engines.
-4. Ability to run the extension in mobile browsers.
-5. Allow optionally disabling auto-suggest dropdowns to reduce resource utilization.
-6. Make disabling non-AI instant answers optional where possible.
+3. Ability to run the extension in mobile browsers.
+4. Allow optionally disabling auto-suggest dropdowns to reduce resource utilization.
+5. Make disabling non-AI instant answers optional where possible.
+6. Support for additional search engines (Searx, Kagi, etc.)
