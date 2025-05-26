@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+            "transform": {
+                "queryTransform": {
+                    "addOrReplaceParams": [
+                      { "key": "udm", "value": "14" }
+                    ]
+                }
+            }
+        }
+      },
+      "condition": {
+        "urlFilter": "||www.google.com/search*",
+        "resourceTypes": ["main_frame"]
+      }
+    },
+    {
+        "id": 2,
+        "priority": 2,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "assist", "value": "false" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||duckduckgo.com/*t=*",
+          "resourceTypes": ["main_frame"]
+        }
+      }
+
+
+
+    
+  ]

@@ -5,5 +5,11 @@ Our goal is not to just hide AI-powered results on websites and search engines, 
 
 ## Search Engine Support
 
+### DuckDuckGo
+We disable DuckDuckGo's AI Assist by adding the `assist=false` parameter to all DuckDuckGo search URLs. This tells DuckDuckGo to disable the AI Assist feature.
+
 ### Google
-We disable Google's AI Overview by adding the `udm=14` parameter to all Google Search URLs. This tells Google to switch to their 'Web' view which is a stripped down results page without AI Overviews or interactive cards.
+We disable Google's AI Overview by adding the `udm=14` parameter to all Google search URLs. This tells Google to switch to their 'Web' view which is a stripped down results page without AI Overviews or interactive cards.
+
+## Coming Soon
+1. Support for optionally disabling auto-suggest dropdowns.
