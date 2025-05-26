@@ -9,7 +9,7 @@ if ( searchContainer ) {
         const searchContainerSelector = "." + searchContainer.classList.value.replace(" ", ".");
 
         const style = document.createElement( 'style' );
-        style.innerHTML = `
+        style.textContent = `
                 ${autoCompleteContainerSelector} {
                     display: none !important;
                 }
