@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||google.com/complete/search",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    },
+    {
+      "id": 2,
+      "priority": 2,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||duckduckgo.com/ac*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    }
+]

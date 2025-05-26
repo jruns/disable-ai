@@ -31,6 +31,7 @@
                         { "key": "assist", "value": "false" },
                         { "key": "kbe", "value": "0" },
                         { "key": "kbg", "value": "-1" },
+                        { "key": "kac", "value": "-1" },
                         { "key": "kz", "value": "-1" }
                       ]
                   }
@@ -54,6 +55,7 @@
                         { "key": "assist", "value": "false" },
                         { "key": "kbe", "value": "0" },
                         { "key": "kbg", "value": "-1" },
+                        { "key": "kac", "value": "-1" },
                         { "key": "kz", "value": "-1" }
                       ]
                   }
@@ -65,8 +67,4 @@
           "resourceTypes": ["main_frame"]
         }
       }
-
-
-
-    
   ]
