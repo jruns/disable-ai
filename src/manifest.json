@@ -3,7 +3,7 @@
   "version": "1.1",
   "manifest_version": 3,
   "author": "jruns",
-  "description": "Disable AI will disable AI features on various sites and search engines so that you consume less energy and water resources. It currently removes Google's AI Overview and DuckDuckGo's AI Assist so that the AI does not even run in the background, not just hide it like other extensions.",
+  "description": "Disable AI disables AI features on Google and DuckDuckGo so that you consume less energy and water resources. It currently removes Google's AI Overview and DuckDuckGo's AI Assist so that the AI does not even run in the background. We don't just hide results like other extensions.",
   "browser_specific_settings": {
     "gecko": {
       "id": "disable-ai@impactfulgroup.com"
