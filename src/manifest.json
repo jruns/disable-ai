@@ -20,11 +20,11 @@
   },
   "permissions": [
     "declarativeNetRequest",
-    "declarativeNetRequestFeedback",
     "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": [
-    "<all_urls>"
+    "*://www.google.com/search*",
+    "*://duckduckgo.com*"
   ],
   "icons": {
     "16": "icons/icon_16.png",
