@@ -15,20 +15,9 @@
         "id": "redirect_rules",
         "enabled": true,
         "path": "rules/redirect_rules.json"
-      },
-      {
-        "id": "autocomplete_rules",
-        "enabled": true,
-        "path": "rules/autocomplete_rules.json"
       }
     ]
   },
-  "content_scripts": [
-    {
-      "matches": [ "https://www.google.com/*" ],
-      "js": [ "scripts/google_search.js" ]
-    }
-  ],
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestFeedback",
