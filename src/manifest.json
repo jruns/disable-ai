@@ -24,7 +24,7 @@
   ],
   "host_permissions": [
     "*://www.google.com/search*",
-    "*://duckduckgo.com*"
+    "*://duckduckgo.com/*"
   ],
   "icons": {
     "16": "icons/icon_16.png",
