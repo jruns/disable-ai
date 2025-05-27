@@ -30,8 +30,7 @@ We disable Google's AI Overview by adding the `udm=14` parameter to all Google s
 If you don't see AI features being disabled then you might be using another extension that sets browser blocking or redirect rules for Google or DuckDuckGo. Only one rule can run on a page, so their rule might be running.
 
 ## Future Updates
-1. Add International support
-2. Disable AI results in Bing (if possible).
-3. Ability to run the extension in mobile browsers.
-4. Allow optionally disabling auto-suggest dropdowns to reduce resource utilization.
-5. Allow optionally disabling instant answers to reduce search result clutter.
+1. Disable AI results in Bing (if possible).
+2. Ability to run the extension in mobile browsers.
+3. Allow optionally disabling auto-suggest dropdowns to reduce resource utilization.
+4. Allow optionally disabling instant answers to reduce search result clutter.

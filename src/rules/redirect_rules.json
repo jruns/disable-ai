@@ -15,7 +15,7 @@
         }
       },
       "condition": {
-        "urlFilter": "||www.google.com/search*",
+        "urlFilter": "||www.google.*/search*",
         "resourceTypes": ["main_frame"]
       }
     },
