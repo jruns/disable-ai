@@ -30,8 +30,7 @@
                       "addOrReplaceParams": [
                         { "key": "assist", "value": "false" },
                         { "key": "kbe", "value": "0" },
-                        { "key": "kbg", "value": "-1" },
-                        { "key": "kz", "value": "-1" }
+                        { "key": "kbg", "value": "-1" }
                       ]
                   }
               }
@@ -53,8 +52,7 @@
                       "addOrReplaceParams": [
                         { "key": "assist", "value": "false" },
                         { "key": "kbe", "value": "0" },
-                        { "key": "kbg", "value": "-1" },
-                        { "key": "kz", "value": "-1" }
+                        { "key": "kbg", "value": "-1" }
                       ]
                   }
               }
