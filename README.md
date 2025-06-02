@@ -3,13 +3,12 @@ This is a browser extension to disable AI features on various sites and search e
 
 Our goal is not to just hide AI-powered results on websites and search engines like other extensions, but to actually stop the browser or server requests that run behind the scenes. Otherwise resources are still consumed by AI to generate results, even if they are hidden visually.
 
-## Search Engines Supported
-DuckDuckGo and Google
+**Search Engines Supported:**  
+DuckDuckGo, Google
 
 ## How to Install
-- Firefox and Firefox for Android
-  [Official Firefox Add-ons link](https://addons.mozilla.org/en-US/firefox/)
-- Chrome Web Store link coming soon
+- Firefox and Firefox for Android: [Official Firefox Add-ons link](https://addons.mozilla.org/en-US/firefox/)
+- Chrome Web Store link coming soon  
 
 ## How it Works
 
@@ -31,4 +30,4 @@ We disable Google's AI Overview by adding the `udm=14` parameter to all Google s
 If you don't see AI features being disabled then you might be using another extension that sets browser blocking or redirect rules for Google or DuckDuckGo. Only one rule can run on a page, so their rule might be running.
 
 ## Future Updates
-- Disable AI results in Bing (if possible).
+Disable AI results in Bing (if possible).
