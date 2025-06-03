@@ -20,7 +20,29 @@
       }
     },
     {
-        "id": 2,
+      "id": 2,
+      "priority": 2,
+      "action": {
+        "type": "allow"
+      },
+      "condition": {
+        "urlFilter": "||www.google.*/search*tbm=nws*",
+        "resourceTypes": ["main_frame"]
+      }
+    },
+    {
+      "id": 3,
+      "priority": 3,
+      "action": {
+        "type": "allow"
+      },
+      "condition": {
+        "urlFilter": "||www.google.*/search*udm=*",
+        "resourceTypes": ["main_frame"]
+      }
+    },
+    {
+        "id": 4,
         "priority": 2,
         "action": {
           "type": "redirect",
@@ -42,8 +64,8 @@
         }
       },
       {
-        "id": 3,
-        "priority": 2,
+        "id": 5,
+        "priority": 3,
         "action": {
           "type": "redirect",
           "redirect": {
