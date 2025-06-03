@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "build": "web-ext build --filename disable-ai.zip --overwrite-dest --source-dir ./src/",
-        "sign": "web-ext sign --source-dir ./src/",
+        "build": "web-ext build --source-dir ./src/ --ignore-files _metadata* --filename disable-ai.zip --overwrite-dest",
+        "sign": "web-ext sign --source-dir ./src/ --ignore-files _metadata*",
         "start:firefox": "web-ext run --source-dir ./src/"
     }
 }
