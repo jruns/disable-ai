@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "manifest_version": 3,
   "author": "jruns",
-  "description": "Disable AI disables AI features on Google and DuckDuckGo so that your searches consume less energy and water. The AI features don't even run in the background. We don't just hide results like other extensions.",
+  "description": "Don't just hide results. Disable AI overviews on Google and DuckDuckGo so your searches consume less energy and water.",
   "homepage_url": "https://github.com/jruns/disable-ai",
   "browser_specific_settings": {
     "gecko": {
