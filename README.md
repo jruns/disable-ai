@@ -7,7 +7,7 @@ Our goal is not to just hide AI-powered results on websites and search engines l
 DuckDuckGo, Google
 
 ## How to Install
-- Firefox and Firefox for Android: [Official Firefox Add-ons link](https://addons.mozilla.org/en-US/firefox/)
+- Firefox and Firefox for Android: [Official Firefox Add-ons link](https://addons.mozilla.org/en-US/firefox/addon/disable-ai/)
 - Chrome Web Store link coming soon  
 
 ## How it Works
