@@ -16,7 +16,7 @@ DuckDuckGo, Google
 We disable DuckDuckGo's AI Assist by adding the `assist=false` and `kbe=0` url parameter to all DuckDuckGo search URLs. This tells DuckDuckGo to disable the AI Assist feature. We also turn off Duck.ai Chat by adding the `kbg=-1` url parameter.
 
 ### Google
-We disable Google's AI Overview by adding the `udm=14` parameter to all Google search URLs. This tells Google to switch to their 'Web' view which is a stripped down results page without AI Overviews or instant answers.
+We disable Google's AI Overview by adding the `udm=14` parameter to the default Google search URLs. This tells Google to switch to their 'Web' view which is a stripped down results page without AI Overviews or instant answers.
 
 ## Chrome Installation instructions
 1. Download the `src` folder from this github repo
