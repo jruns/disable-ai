@@ -87,7 +87,7 @@
       },
       {
         "id": 6,
-        "priority": 3,
+        "priority": 1,
         "action": {
           "type": "redirect",
           "redirect": {
