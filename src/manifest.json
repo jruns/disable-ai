@@ -29,12 +29,21 @@
   },
   "content_scripts": [
     {
+      "matches": [ "https://www.bing.com/*" ],
+      "css": [ "styles/bing_search.css" ],
+      "run_at": "document_start"
+    },
+    {
       "matches": [ "https://search.brave.com/", "https://search.brave.com/search*" ],
       "css": [ "styles/brave_search.css" ],
       "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
+    {
+      "resources": [ "styles/bing_search.css"],
+      "matches": [ "https://www.bing.com/*" ]
+    },
     {
       "resources": [ "styles/brave_search.css"],
       "matches": [ "https://search.brave.com/*" ]

@@ -1,0 +1,18 @@
+/* Hide Open Copilot search bar button from homepage */
+a:has(.cdxCopilotIcon) {
+    display: none;
+}
+
+/* Hide Chat with Copilot search bar button */
+.b_phead_chat_link {
+    display: none;
+}
+
+/* Hide Copilot related tabs */
+ul.scopes #codex {
+    display: none;
+}
+
+#b-scopeListItem-copilotsearch, #b-scopeListItem-conv {
+    display: none;
+}
