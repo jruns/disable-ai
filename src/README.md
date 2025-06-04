@@ -15,4 +15,4 @@ We disable DuckDuckGo's `AI Assist` by adding the `assist=false` and `kbe=0` url
 We disable Google's `AI Overview` by adding the `udm=14` parameter to the default Google search URLs. This tells Google to switch to their 'Web' view which is a stripped down results page without AI Overviews or instant answers.
 
 ## Troubleshooting
-If you don't see AI features being disabled then you might be using another extension that sets browser blocking or redirect rules for Google or DuckDuckGo. Only one rule can run on a page, so their rule might be running.
+If you don't see AI features being disabled then you might be using another extension that sets browser blocking or redirect rules for the URL you are accessing. Only one rule can run on a page, so their rule might be running.
