@@ -37,7 +37,7 @@
   "web_accessible_resources": [
     {
       "resources": [ "styles/brave_search.css"],
-      "matches": [ "https://search.brave.com/", "https://search.brave.com/search*" ]
+      "matches": [ "https://search.brave.com/*" ]
     }
   ],
   "permissions": [
