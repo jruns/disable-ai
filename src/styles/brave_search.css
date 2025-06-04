@@ -1,0 +1,9 @@
+/* Hide AI search bar button */
+.subutton-wrapper:has(.ai-generate-icon) {
+    display: none;
+}
+
+/* Hide autocomplete AI suggestion */
+button.suggestion:has(.ai-generate) {
+    display: none;
+}

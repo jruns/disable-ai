@@ -84,5 +84,25 @@
           "urlFilter": "https://duckduckgo.com/*q=*",
           "resourceTypes": ["main_frame"]
         }
+      },
+      {
+        "id": 6,
+        "priority": 1,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "summary", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||search.brave.com/search",
+          "resourceTypes": ["main_frame"]
+        }
       }
   ]
