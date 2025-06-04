@@ -6,7 +6,7 @@ Our goal is not to just hide AI-powered results on websites and search engines l
 ## Search Engine Support
 
 ### Brave Search
-We disable Brave Search's `Answer with AI` by adding the `summary=0` url parameter to the main Brave Search URL.
+We disable Brave Search's `Answer with AI` by adding the `summary=0` url parameter to the main Brave Search URL. We also remove the Answer with AI button in the search bar next to the search icon, and the Answer with AI search suggestion.
 
 ### DuckDuckGo
 We disable DuckDuckGo's `AI Assist` by adding the `assist=false` and `kbe=0` url parameter to all DuckDuckGo search URLs. This tells DuckDuckGo to disable the AI Assist feature. We also turn off Duck.ai Chat by adding the `kbg=-1` url parameter.
