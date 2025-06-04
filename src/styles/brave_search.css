@@ -4,6 +4,6 @@
 }
 
 /* Hide autocomplete AI suggestion */
-button.suggestion:has(.ai-generate) {
+.suggestions .suggestion:has(.ai-generate) {
     display: none;
 }
