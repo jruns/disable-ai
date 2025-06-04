@@ -13,7 +13,7 @@ Brave Search, DuckDuckGo, Google
 ## How it Works
 
 ### Brave Search
-We disable Brave Search's `Answer with AI` by adding the `summary=0` url parameter to the main Brave Search URL.
+We disable Brave Search's `Answer with AI` by adding the `summary=0` url parameter to the main Brave Search URL. We also remove the Answer with AI button in the search bar next to the search icon.
 
 ### DuckDuckGo
 We disable DuckDuckGo's AI Assist by adding the `assist=false` and `kbe=0` url parameter to all DuckDuckGo search URLs. This tells DuckDuckGo to disable the AI Assist feature. We also turn off Duck.ai Chat by adding the `kbg=-1` url parameter.

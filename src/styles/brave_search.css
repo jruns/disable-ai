@@ -1,0 +1,3 @@
+.subutton-wrapper:has(.ai-generate-icon) {
+    display: none;
+}
