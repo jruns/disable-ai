@@ -8,7 +8,7 @@ Brave Search, DuckDuckGo, Google
 
 ## How to Install
 - Firefox and Firefox for Android: [Official Firefox Add-ons link](https://addons.mozilla.org/en-US/firefox/addon/disable-ai/)
-- Chrome Web Store: [Official Chrome Web Store link](https://chromewebstore.google.com/detail/disable-ai/blhpdcldeaiejfmdfbjonoafgkndhfcg)
+- Chrome: [Official Chrome Web Store link](https://chromewebstore.google.com/detail/disable-ai/blhpdcldeaiejfmdfbjonoafgkndhfcg)
 
 ## How it Works
 
