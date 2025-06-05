@@ -8,7 +8,7 @@ Brave Search, DuckDuckGo, Google
 
 ## How to Install
 - Firefox and Firefox for Android: [Official Firefox Add-ons link](https://addons.mozilla.org/en-US/firefox/addon/disable-ai/)
-- Chrome Web Store link coming soon  
+- Chrome: [Official Chrome Web Store link](https://chromewebstore.google.com/detail/disable-ai/blhpdcldeaiejfmdfbjonoafgkndhfcg)
 
 ## How it Works
 
@@ -20,14 +20,6 @@ We disable DuckDuckGo's `AI Assist` by adding the `assist=false` and `kbe=0` url
 
 ### Google
 We disable Google's `AI Overview` by adding the `udm=14` parameter to the default Google search URLs. This tells Google to switch to their 'Web' view which is a stripped down results page without AI Overviews or instant answers.
-
-## Chrome Installation instructions
-1. Download the `src` folder from this github repo
-2. Go to `chrome://extensions/`
-3. Activate "Developer mode"
-4. Click the "Load unpacked" button
-5. Select the `src` folder you saved locally
-6. Pin the extension to the Toolbar
 
 ## Troubleshooting
 If you don't see AI features being disabled then you might be using another extension that sets browser blocking or redirect rules for the URL you are accessing. Only one rule can run on a page, so their rule might be running.
