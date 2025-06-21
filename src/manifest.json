@@ -21,6 +21,11 @@
   "declarative_net_request": {
     "rule_resources": [
       {
+        "id": "block_rules",
+        "enabled": true,
+        "path": "rules/block_rules.json"
+      },
+      {
         "id": "redirect_rules",
         "enabled": true,
         "path": "rules/redirect_rules.json"
@@ -32,12 +37,21 @@
       "matches": [ "https://search.brave.com/", "https://search.brave.com/search*" ],
       "css": [ "styles/brave_search.css" ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [ "https://www.ecosia.org/*" ],
+      "css": [ "styles/ecosia.css" ],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
     {
       "resources": [ "styles/brave_search.css"],
       "matches": [ "https://search.brave.com/*" ]
+    },
+    {
+      "resources": [ "styles/ecosia.css"],
+      "matches": [ "https://www.ecosia.org/*" ]
     }
   ],
   "permissions": [
@@ -47,6 +61,7 @@
   "host_permissions": [
     "*://search.brave.com/search*",
     "*://duckduckgo.com/*",
+    "*://api.ecosia.org/v2/aie-exa-proxy*",
     "*://www.google.com/search*",
     "*://www.google.ad/search*",
     "*://www.google.ae/search*",

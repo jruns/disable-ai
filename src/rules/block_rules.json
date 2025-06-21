@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||api.ecosia.org/v2/aie-exa-proxy*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
+    }
+]
