@@ -68,6 +68,7 @@
     "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": [
+    "*://www.bing.com/*",
     "*://search.brave.com/search*",
     "*://duckduckgo.com/*",
     "*://www.ecosia.org/*",
