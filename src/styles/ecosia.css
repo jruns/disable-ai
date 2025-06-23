@@ -1,0 +1,9 @@
+/* Hide AI Chat search bar button */
+nav.search-navigation .search-navigation__list .search-navigation__item:has(a[href^="/chat"]) {
+    display: none;
+}
+
+/* Hide AI Overview skeleton container */
+div[data-test-id="mainline-result-aiOverview"] {
+    display: none;
+}
