@@ -42,6 +42,11 @@
       "matches": [ "https://www.ecosia.org/*" ],
       "css": [ "styles/ecosia.css" ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [ "https://github.com/*" ],
+      "css": [ "styles/github.css" ],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
@@ -52,6 +57,10 @@
     {
       "resources": [ "styles/ecosia.css"],
       "matches": [ "https://www.ecosia.org/*" ]
+    },
+    {
+      "resources": [ "styles/github.css"],
+      "matches": [ "https://github.com/*" ]
     }
   ],
   "permissions": [
@@ -63,6 +72,7 @@
     "*://duckduckgo.com/*",
     "*://www.ecosia.org/*",
     "*://api.ecosia.org/v2/aie-exa-proxy*",
+    "*://github.com/*",
     "*://www.google.com/search*",
     "*://www.google.ad/search*",
     "*://www.google.ae/search*",

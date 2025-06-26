@@ -1,0 +1,14 @@
+/* Hide Copilot header nav button */
+body .AppHeader .AppHeader-globalBar .AppHeader-CopilotChat {
+    display: none;
+}
+
+/* Hide Copilot menu option from sidebar */
+nav-list ul .ActionListItem:has(a[href^='/copilot']) {
+    display: none
+}
+
+/* Hide Copilot search bar from Github homepage */
+.news .copilotPreview__container, .news copilot-dashboard-entrypoint {
+    display: none;
+}
