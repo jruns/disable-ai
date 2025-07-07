@@ -1,0 +1,4 @@
+/* Hide AI Mode search bar button */
+div[role="navigation"] a[href*="&udm=50"] {
+    display: none;
+}
