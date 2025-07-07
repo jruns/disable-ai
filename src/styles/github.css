@@ -12,3 +12,8 @@ nav-list ul .ActionListItem:has(a[href^='/copilot']) {
 .news .copilotPreview__container, .news copilot-dashboard-entrypoint {
     display: none;
 }
+
+/* Hide Copilot suggestions from Github docs */
+li[data-testid='ai-autocomplete-suggestions'], li[data-testid='ai-autocomplete-suggestions'] + li {
+    display: none;
+}
