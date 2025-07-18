@@ -1,4 +1,9 @@
-/* Hide AI Mode search bar button */
+/* Hide AI Mode button on homepage */
+form[role="search"] button[role="link"] {
+    display: none;
+}
+
+/* Hide AI Mode search bar button on results pages */
 div[role="navigation"] a[href*="&udm=50"] {
     display: none;
 }
