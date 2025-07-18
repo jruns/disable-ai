@@ -1,6 +1,6 @@
 {
   "name": "Disable AI",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "manifest_version": 3,
   "author": "jruns",
   "description": "Don't just hide results. Disable AI overviews on popular search engines so your searches consume less energy and water.",
