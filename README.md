@@ -4,7 +4,7 @@ This is a browser extension to disable AI features on various sites and search e
 Our goal is not to just hide AI-powered results on websites and search engines like other extensions, but to actually stop the browser or server requests that run behind the scenes. Otherwise resources are still consumed by AI to generate results, even if they are hidden visually.
 
 **Search Engines Supported:**  
-Brave Search, DuckDuckGo, Ecosia, Google
+Brave Search, DuckDuckGo, Ecosia, Google, Qwant
 
 ## How to Install
 - Firefox and Firefox for Android: [Official Firefox Add-ons link](https://addons.mozilla.org/en-US/firefox/addon/disable-ai/)
@@ -23,6 +23,9 @@ We disable Ecosia's `AI Overview` by blocking the AI Overview data request to th
 
 ### Google
 We disable Google's `AI Overview` by adding the `udm=14` parameter to the default Google search URLs. This tells Google to switch to their 'Web' view which is a stripped down results page without AI Overviews or instant answers. We also hide the `AI Mode` button on the homepage and the `AI Mode` tab in the search bar on results pages.
+
+### Qwant
+We disable Qwant's `Flash Answer` by adding the `llm=0` parameter to the default Qwant All/Web search URLs. This disables the AI overview in regions where it is active and removes the AI summarize buttons next to search results.
 
 ## Troubleshooting
 If you don't see AI features being disabled then you might be using another extension that sets browser blocking or redirect rules for the URL you are accessing. Only one rule can run on a page, so their rule might be running.

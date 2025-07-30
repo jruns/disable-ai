@@ -1,6 +1,6 @@
 {
   "name": "Disable AI",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "manifest_version": 3,
   "author": "jruns",
   "description": "Don't just hide results. Disable AI overviews on popular search engines so your searches consume less energy and water.",
@@ -263,7 +263,8 @@
     "*://www.google.co.za/search*",
     "*://www.google.co.zm/search*",
     "*://www.google.co.zw/search*",
-    "*://www.google.cat/search*"
+    "*://www.google.cat/search*",
+    "*://www.qwant.com/*"
   ],
   "icons": {
     "16": "icons/icon_16.png",

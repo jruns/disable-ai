@@ -104,5 +104,25 @@
           "urlFilter": "||search.brave.com/search",
           "resourceTypes": ["main_frame"]
         }
+      },
+      {
+        "id": 7,
+        "priority": 1,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "llm", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||www.qwant.com/*t=web*",
+          "resourceTypes": ["main_frame"]
+        }
       }
   ]
