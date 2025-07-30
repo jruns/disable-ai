@@ -123,7 +123,7 @@
           }
         },
         "condition": {
-          "urlFilter": "||www.qwant.com/*t=web*",
+          "urlFilter": "||www.qwant.com/*",
           "resourceTypes": ["main_frame"]
         }
       }
