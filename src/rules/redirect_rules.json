@@ -52,7 +52,8 @@
                       "addOrReplaceParams": [
                         { "key": "assist", "value": "false" },
                         { "key": "kbe", "value": "0" },
-                        { "key": "kbg", "value": "-1" }
+                        { "key": "kbg", "value": "-1" },
+                        { "key": "kbj", "value": "1" }
                       ]
                   }
               }
@@ -74,7 +75,8 @@
                       "addOrReplaceParams": [
                         { "key": "assist", "value": "false" },
                         { "key": "kbe", "value": "0" },
-                        { "key": "kbg", "value": "-1" }
+                        { "key": "kbg", "value": "-1" },
+                        { "key": "kbj", "value": "1" }
                       ]
                   }
               }
@@ -102,6 +104,26 @@
         },
         "condition": {
           "urlFilter": "||search.brave.com/search",
+          "resourceTypes": ["main_frame"]
+        }
+      },
+      {
+        "id": 7,
+        "priority": 1,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+              "transform": {
+                  "queryTransform": {
+                      "addOrReplaceParams": [
+                        { "key": "llm", "value": "0" }
+                      ]
+                  }
+              }
+          }
+        },
+        "condition": {
+          "urlFilter": "||www.qwant.com/*t=web*",
           "resourceTypes": ["main_frame"]
         }
       }
