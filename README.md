@@ -29,6 +29,3 @@ We disable Qwant's `Flash Answer` by adding the `llm=0` parameter to the default
 
 ## Troubleshooting
 If you don't see AI features being disabled then you might be using another extension that sets browser blocking or redirect rules for the URL you are accessing. Only one rule can run on a page, so their rule might be running.
-
-## Future Updates
-Disable AI results in Bing (if possible).
