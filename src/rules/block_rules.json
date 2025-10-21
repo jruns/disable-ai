@@ -9,5 +9,16 @@
         "urlFilter": "||api.ecosia.org/v2/aie-exa-proxy*",
         "resourceTypes": [ "main_frame", "xmlhttprequest" ]
       }
+    },
+    {
+      "id": 2,
+      "priority": 1,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||yandex.com/search/generative_answer*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest", "json" ]
+      }
     }
 ]

@@ -264,7 +264,8 @@
     "*://www.google.co.zm/search*",
     "*://www.google.co.zw/search*",
     "*://www.google.cat/search*",
-    "*://www.qwant.com/*"
+    "*://www.qwant.com/*",
+    "*://yandex.com/search*"
   ],
   "icons": {
     "16": "icons/icon_16.png",
