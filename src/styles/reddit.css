@@ -7,3 +7,8 @@ search-telemetry-tracker[data-faceplate-tracking-context*="\"answers\""] {
 aside[id^="answers-suggested-queries"], faceplate-partial[src^="/svc/shreddit/pdp-right-rail/related/"] {
     display: none;
 }
+
+/* Hide "Request failed" alert banner because blocking the related posts request throws it */
+alert-controller {
+    display: none;
+}

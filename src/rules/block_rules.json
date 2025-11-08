@@ -22,7 +22,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "priority": 1,
       "action": {
         "type": "block"
