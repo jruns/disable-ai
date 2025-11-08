@@ -1,0 +1,4 @@
+/* Hide Answers section on a search page */
+search-telemetry-tracker[data-faceplate-tracking-context*="\"answers\""] {
+    display: none;
+}

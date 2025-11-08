@@ -9,5 +9,16 @@
         "urlFilter": "||api.ecosia.org/v2/aie-exa-proxy*",
         "resourceTypes": [ "main_frame", "xmlhttprequest" ]
       }
+    },
+    {
+      "id": 2,
+      "priority": 1,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||answers.reddit.com/v1/answers*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
     }
 ]
