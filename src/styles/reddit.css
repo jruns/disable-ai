@@ -2,3 +2,8 @@
 search-telemetry-tracker[data-faceplate-tracking-context*="\"answers\""] {
     display: none;
 }
+
+/* Hide related answers and posts on a subreddit page */
+aside[id^="answers-suggested-queries"], faceplate-partial[src^="/svc/shreddit/pdp-right-rail/related/"] {
+    display: none;
+}

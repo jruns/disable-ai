@@ -20,5 +20,16 @@
         "urlFilter": "||answers.reddit.com/v1/answers*",
         "resourceTypes": [ "main_frame", "xmlhttprequest" ]
       }
+    },
+    {
+      "id": 2,
+      "priority": 1,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||www.reddit.com/svc/shreddit/pdp-right-rail/related/*",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
     }
 ]

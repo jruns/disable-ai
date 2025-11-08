@@ -54,7 +54,7 @@
       "run_at": "document_start"
     },
     {
-      "matches": [ "https://www.reddit.com/search*" ],
+      "matches": [ "https://www.reddit.com/search*", "https://www.reddit.com/r/*" ],
       "css": [ "styles/reddit.css" ],
       "run_at": "document_start"
     }
@@ -274,7 +274,8 @@
     "*://www.google.co.zw/search*",
     "*://www.google.cat/search*",
     "*://www.qwant.com/*",
-    "*://answers.reddit.com/v1/answers*"
+    "*://answers.reddit.com/v1/answers*",
+    "*://www.reddit.com/svc/shreddit/pdp-right-rail/related/*"
   ],
   "icons": {
     "16": "icons/icon_16.png",
