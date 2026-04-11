@@ -1,3 +1,13 @@
+/* Hide AI Search search bar button */
+button.omnibox-search-form__ai-search {
+    display: none;
+}
+
+/* Hide AI Search search bar tab */
+a#search-navigation-ai_search {
+    display: none;
+}
+
 /* Hide AI Chat search bar button */
 nav.search-navigation .search-navigation__list .search-navigation__item:has(a[href^="/chat"]) {
     display: none;
