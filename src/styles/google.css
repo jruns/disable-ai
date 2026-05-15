@@ -4,6 +4,6 @@ form[role="search"] button[role="link"] {
 }
 
 /* Hide AI Mode search bar button on results pages */
-div[role="navigation"] a[href*="&udm=50"] {
+div[role="navigation"] div[role="listitem"]:has( a[href*="&udm=50"] ) {
     display: none;
 }
