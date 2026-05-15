@@ -1,19 +1,46 @@
-/* Hide AI Search search bar button */
+/*
+ * Homepage styles
+ */
+ 
+/* Hide AI Search search bar button - might not be used but leaving in case it is */
 button.omnibox-search-form__ai-search {
     display: none;
 }
 
+
+/*
+ * Search result page styles
+ */
+
 /* Hide AI Search search bar tab */
-a#search-navigation-ai_search {
+nav div[data-test-id=search-navigation-item-ai_search] {
     display: none;
 }
 
-/* Hide AI Chat search bar button */
-nav.search-navigation .search-navigation__list .search-navigation__item:has(a[href^="/chat"]) {
+/* Hide AI Chat search bar button variations */
+
+/* Modern nav */
+nav.search-navigation li:has(a[href^="/chat"]), nav.search-navigation li:has(a[href^="/ai-chat"]) {
     display: none;
 }
+/* Classic nav */
+nav.search-navigation .search-navigation__divider, nav.search-navigation .search-navigation__item:has(a[href^="/ai-chat"]) {
+    display: none;
+}
+
+/* Hide AI autocomplete search suggestion */
 
 /* Hide AI Overview skeleton container */
 div[data-test-id="mainline-result-aiOverview"] {
+    display: none;
+}
+
+
+/*
+ * Global styles
+ */
+
+/* Hide AI autocomplete search suggestions */
+form[role=search] li#search-form-ai-suggestion {
     display: none;
 }
