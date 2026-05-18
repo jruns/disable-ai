@@ -2,8 +2,8 @@
  * Homepage styles
  */
  
-/* Hide AI Search search bar button - might not be used but leaving in case it is */
-button.omnibox-search-form__ai-search {
+/* Hide AI Search search bar button */
+button.omnibox-search-form__ai-search, button.omnibox-search-form__ai-chat {
     display: none;
 }
 
