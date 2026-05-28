@@ -9,6 +9,7 @@ Brave Search, DuckDuckGo, Ecosia, Google, Qwant
 ## How to Install
 - Firefox and Firefox for Android: [Official Firefox Add-ons link](https://addons.mozilla.org/en-US/firefox/addon/disable-ai/)
 - Chrome: [Official Chrome Web Store link](https://chromewebstore.google.com/detail/disable-ai/blhpdcldeaiejfmdfbjonoafgkndhfcg)
+- Edge: [Official Edge Add-ons link](https://microsoftedge.microsoft.com/addons/detail/disable-ai/onjmmgdkdkpmjdlaekdklibbjcepcagi)
 
 ## How it Works
 
